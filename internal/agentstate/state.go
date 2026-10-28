@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentid"
+	"github.com/jiind/docklattice/internal/agentid"
 )
 
 type diskState struct {

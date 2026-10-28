@@ -19,7 +19,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/east-true/docklattice/internal/safefile"
+	"github.com/jiind/docklattice/internal/safefile"
 	"gopkg.in/yaml.v3"
 )
 

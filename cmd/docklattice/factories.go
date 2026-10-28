@@ -15,12 +15,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentruntime"
-	"github.com/east-true/docklattice/internal/agentsafety"
-	"github.com/east-true/docklattice/internal/app"
-	"github.com/east-true/docklattice/internal/auditstore"
-	"github.com/east-true/docklattice/internal/registrationhttp"
-	"github.com/east-true/docklattice/internal/serverruntime"
+	"github.com/jiind/docklattice/internal/agentruntime"
+	"github.com/jiind/docklattice/internal/agentsafety"
+	"github.com/jiind/docklattice/internal/app"
+	"github.com/jiind/docklattice/internal/auditstore"
+	"github.com/jiind/docklattice/internal/registrationhttp"
+	"github.com/jiind/docklattice/internal/serverruntime"
 )
 
 func productFactories() app.Factories {

@@ -7,10 +7,10 @@ import (
 	"math"
 	"sync"
 
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/backup"
-	"github.com/east-true/docklattice/internal/diskbudget"
-	"github.com/east-true/docklattice/internal/operation"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/backup"
+	"github.com/jiind/docklattice/internal/diskbudget"
+	"github.com/jiind/docklattice/internal/operation"
 )
 
 var ErrInvalidEvictionConfig = errors.New("agentstorage: invalid eviction configuration")

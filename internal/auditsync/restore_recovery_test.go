@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/auditstore"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/serverstore"
+	"github.com/jiind/docklattice/internal/auditstore"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/serverstore"
 )
 
 var restoreNow = time.Date(2026, 8, 15, 0, 0, 0, 0, time.UTC)

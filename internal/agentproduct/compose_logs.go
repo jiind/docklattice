@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/east-true/docklattice/internal/agentops"
-	"github.com/east-true/docklattice/internal/composeexec"
-	"github.com/east-true/docklattice/internal/logrelay"
+	"github.com/jiind/docklattice/internal/agentops"
+	"github.com/jiind/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/logrelay"
 )
 
 const (

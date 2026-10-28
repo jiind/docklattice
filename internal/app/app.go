@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/east-true/docklattice/internal/config"
+	"github.com/jiind/docklattice/internal/config"
 )
 
 const (

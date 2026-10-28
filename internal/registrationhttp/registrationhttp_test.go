@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentid"
-	"github.com/east-true/docklattice/internal/identity"
-	"github.com/east-true/docklattice/internal/registration"
-	"github.com/east-true/docklattice/internal/serverstore"
+	"github.com/jiind/docklattice/internal/agentid"
+	"github.com/jiind/docklattice/internal/identity"
+	"github.com/jiind/docklattice/internal/registration"
+	"github.com/jiind/docklattice/internal/serverstore"
 )
 
 type fixture struct {

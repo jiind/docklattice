@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/transport"
-	"github.com/east-true/docklattice/internal/transport/conformance"
+	"github.com/jiind/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport/conformance"
 )
 
 func TestConformance(t *testing.T) { conformance.Run(t, testFactory(t)) }

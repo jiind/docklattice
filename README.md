@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/east-true/docklattice/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/east-true/docklattice/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/east-true/docklattice/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/east-true/docklattice?include_prereleases&sort=semver"></a>
+  <a href="https://github.com/jiind/docklattice/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/jiind/docklattice/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/jiind/docklattice/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/jiind/docklattice?include_prereleases&sort=semver"></a>
   <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-blue.svg"></a>
   <a href="go.mod"><img alt="Go version" src="https://img.shields.io/badge/go-1.26-00ADD8.svg"></a>
   <a href="docs/operations/supported-environments.md"><img alt="Platforms: Linux amd64 and arm64" src="https://img.shields.io/badge/platform-Linux%20amd64%20%7C%20arm64-lightgrey.svg"></a>
@@ -173,7 +173,7 @@ deploying.
 The Go version is declared in [`go.mod`](go.mod).
 
 ```sh
-git clone https://github.com/east-true/docklattice.git
+git clone https://github.com/jiind/docklattice.git
 cd docklattice
 go build ./cmd/docklattice
 go test ./...
@@ -183,7 +183,7 @@ The resulting binary contains both `server` and `agent` modes and embeds the
 production web UI.
 
 > [!IMPORTANT]
-> [`v0.0.0`](https://github.com/east-true/docklattice/releases/tag/v0.0.0) is the
+> [`v0.0.0`](https://github.com/jiind/docklattice/releases/tag/v0.0.0) is the
 > first source-only pre-release. GitHub provides source archives for the tag;
 > the release does not publish signed Server/Agent images or prebuilt binaries.
 > The Image-bearing release workflow is prepared for a later SemVer tag; it
@@ -264,7 +264,7 @@ environments, and limitations.
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing behavior. Features
   classified as `FUTURE` or `DO NOT BUILD` require an architecture decision
   before implementation.
-- Use [GitHub Issues](https://github.com/east-true/docklattice/issues) for bugs and
+- Use [GitHub Issues](https://github.com/jiind/docklattice/issues) for bugs and
   feature discussions. Include the DockLattice revision, kernel, Docker Engine,
   Compose version, Agent root mode, and exact refusal text.
 - Report vulnerabilities privately using [SECURITY.md](SECURITY.md).

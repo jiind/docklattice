@@ -4,7 +4,7 @@ syntax = "proto3";
 // details are exposed by the transport-neutral package.
 package docklattice.prototype.grpc.v1;
 
-option go_package = "github.com/east-true/docklattice/internal/candidate/grpcadapter/pb;pb";
+option go_package = "github.com/jiind/docklattice/internal/candidate/grpcadapter/pb;pb";
 
 message OpenRequest {
   uint64 exchange_id = 1;

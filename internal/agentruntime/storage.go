@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentstorage"
-	"github.com/east-true/docklattice/internal/diskbudget"
+	"github.com/jiind/docklattice/internal/agentstorage"
+	"github.com/jiind/docklattice/internal/diskbudget"
 )
 
 const storageReclaimMaxPasses = 8

@@ -20,16 +20,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentid"
-	"github.com/east-true/docklattice/internal/auditevents"
-	"github.com/east-true/docklattice/internal/auditgen"
-	"github.com/east-true/docklattice/internal/auditstore"
-	"github.com/east-true/docklattice/internal/auditsync"
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/identity"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/registration"
-	"github.com/east-true/docklattice/internal/serverstore"
+	"github.com/jiind/docklattice/internal/agentid"
+	"github.com/jiind/docklattice/internal/auditevents"
+	"github.com/jiind/docklattice/internal/auditgen"
+	"github.com/jiind/docklattice/internal/auditstore"
+	"github.com/jiind/docklattice/internal/auditsync"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/identity"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/registration"
+	"github.com/jiind/docklattice/internal/serverstore"
 )
 
 func TestRuntimeServesEmbeddedUIAndStopsWithContext(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/webui"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/webui"
 )
 
 type recoveredOperation struct {

@@ -15,14 +15,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentprojects"
-	"github.com/east-true/docklattice/internal/backup"
-	"github.com/east-true/docklattice/internal/composeexec"
-	"github.com/east-true/docklattice/internal/discovery"
-	"github.com/east-true/docklattice/internal/dockeradapter"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/projectmodel"
-	"github.com/east-true/docklattice/internal/safefile"
+	"github.com/jiind/docklattice/internal/agentprojects"
+	"github.com/jiind/docklattice/internal/backup"
+	"github.com/jiind/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/discovery"
+	"github.com/jiind/docklattice/internal/dockeradapter"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/projectmodel"
+	"github.com/jiind/docklattice/internal/safefile"
 )
 
 const testProjectUID = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"

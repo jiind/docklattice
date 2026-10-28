@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentid"
-	"github.com/east-true/docklattice/internal/agentstate"
-	"github.com/east-true/docklattice/internal/identity"
-	"github.com/east-true/docklattice/internal/serverstore"
+	"github.com/jiind/docklattice/internal/agentid"
+	"github.com/jiind/docklattice/internal/agentstate"
+	"github.com/jiind/docklattice/internal/identity"
+	"github.com/jiind/docklattice/internal/serverstore"
 )
 
 var fixedNow = time.Date(2026, 8, 15, 9, 0, 0, 123456789, time.FixedZone("KST", 9*60*60))

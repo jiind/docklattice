@@ -8,8 +8,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/east-true/docklattice/internal/producttransport"
-	pb "github.com/east-true/docklattice/internal/producttransport/pb"
+	"github.com/jiind/docklattice/internal/producttransport"
+	pb "github.com/jiind/docklattice/internal/producttransport/pb"
 )
 
 // scalingFrame builds one host's frame at a given container count, shaped like

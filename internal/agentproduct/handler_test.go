@@ -9,16 +9,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentprojects"
-	"github.com/east-true/docklattice/internal/backup"
-	"github.com/east-true/docklattice/internal/composeexec"
-	"github.com/east-true/docklattice/internal/diskbudget"
-	"github.com/east-true/docklattice/internal/dockeradapter"
-	"github.com/east-true/docklattice/internal/livestats"
-	"github.com/east-true/docklattice/internal/logrelay"
-	"github.com/east-true/docklattice/internal/operation"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/safefile"
+	"github.com/jiind/docklattice/internal/agentprojects"
+	"github.com/jiind/docklattice/internal/backup"
+	"github.com/jiind/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/diskbudget"
+	"github.com/jiind/docklattice/internal/dockeradapter"
+	"github.com/jiind/docklattice/internal/livestats"
+	"github.com/jiind/docklattice/internal/logrelay"
+	"github.com/jiind/docklattice/internal/operation"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/safefile"
 )
 
 var errAuditDelegated = errors.New("audit delegated")

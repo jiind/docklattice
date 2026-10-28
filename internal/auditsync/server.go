@@ -7,8 +7,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/east-true/docklattice/internal/auditstore"
-	"github.com/east-true/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/auditstore"
+	"github.com/jiind/docklattice/internal/producttransport"
 )
 
 type EventDecoder interface {

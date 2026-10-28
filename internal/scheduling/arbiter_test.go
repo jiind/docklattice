@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 func TestWeightedPolicyProtectsP0AndP1(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/east-true/docklattice/internal/auditsync"
-	"github.com/east-true/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/auditsync"
+	"github.com/jiind/docklattice/internal/producttransport"
 )
 
 // heartbeatHandler intentionally implements only AgentHandler. Query,

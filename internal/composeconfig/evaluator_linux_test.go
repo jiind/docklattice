@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/composeexec"
 )
 
 const evaluatorHelper = "DOCKLATTICE_COMPOSECONFIG_HELPER"

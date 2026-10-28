@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/east-true/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 func TestFrameRoundTrip(t *testing.T) {

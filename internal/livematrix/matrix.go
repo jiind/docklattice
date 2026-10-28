@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/east-true/docklattice/internal/livestats"
+	"github.com/jiind/docklattice/internal/livestats"
 )
 
 var ErrClosed = errors.New("live metrics matrix is closed")

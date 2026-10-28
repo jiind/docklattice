@@ -3,7 +3,7 @@ package auditwal
 import (
 	"time"
 
-	productconfig "github.com/east-true/docklattice/internal/config"
+	productconfig "github.com/jiind/docklattice/internal/config"
 )
 
 const (

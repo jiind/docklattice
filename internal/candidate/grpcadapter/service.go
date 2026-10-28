@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/east-true/docklattice/internal/candidate/grpcadapter/pb"
-	"github.com/east-true/docklattice/internal/transport"
+	pb "github.com/jiind/docklattice/internal/candidate/grpcadapter/pb"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 const (

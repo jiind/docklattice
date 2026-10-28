@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/east-true/docklattice/internal/webui"
+	"github.com/jiind/docklattice/internal/webui"
 )
 
 var (

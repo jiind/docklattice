@@ -7,7 +7,7 @@ syntax = "proto3";
 // 후보 A adapter 안에만 존재한다.
 package docklattice.prototype.v1;
 
-option go_package = "github.com/east-true/docklattice/internal/contract/pb;pb";
+option go_package = "github.com/jiind/docklattice/internal/contract/pb;pb";
 
 // ---------------------------------------------------------------------------
 // P0 Control

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/livestats"
+	"github.com/jiind/docklattice/internal/livestats"
 )
 
 type fakeMembership struct {

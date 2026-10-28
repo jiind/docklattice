@@ -18,7 +18,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/east-true/docklattice/internal/producttransport/pb"
+	pb "github.com/jiind/docklattice/internal/producttransport/pb"
 )
 
 const productALPN = "docklattice-product-grpc/1"

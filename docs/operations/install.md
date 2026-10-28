@@ -3,8 +3,8 @@
 These notes define the filesystem and privilege boundary for the v1 Images.
 Release automation publishes two multi-architecture Images:
 
-- `ghcr.io/east-true/docklattice-server`;
-- `ghcr.io/east-true/docklattice-agent`.
+- `ghcr.io/jiind/docklattice-server`;
+- `ghcr.io/jiind/docklattice-agent`.
 
 Both support `linux/amd64` and `linux/arm64`. Installation always uses the
 immutable digest from the selected GitHub Release, never a mutable tag copied
@@ -22,7 +22,7 @@ release_tag=v0.1.0-rc.1
 release_dir=$(mktemp -d)
 
 gh release download "$release_tag" \
-  --repo east-true/docklattice \
+  --repo jiind/docklattice \
   --dir "$release_dir"
 
 (
@@ -42,11 +42,11 @@ keyless signature issued to that exact tag workflow identity.
 
 ```sh
 gh attestation verify "oci://$server_image" \
-  --repo east-true/docklattice
+  --repo jiind/docklattice
 gh attestation verify "oci://$agent_image" \
-  --repo east-true/docklattice
+  --repo jiind/docklattice
 
-certificate_identity="https://github.com/east-true/docklattice/.github/workflows/release.yml@refs/tags/$release_tag"
+certificate_identity="https://github.com/jiind/docklattice/.github/workflows/release.yml@refs/tags/$release_tag"
 certificate_issuer="https://token.actions.githubusercontent.com"
 
 cosign verify \

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentid"
+	"github.com/jiind/docklattice/internal/agentid"
 )
 
 func TestOpenCreatesStableIdentityAndAdvancesIncarnation(t *testing.T) {

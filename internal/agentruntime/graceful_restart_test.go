@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/east-true/docklattice/internal/auditevents"
-	"github.com/east-true/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/auditevents"
+	"github.com/jiind/docklattice/internal/auditwal"
 )
 
 // A clean SIGTERM path must leave a clean close behind: the next boot may not

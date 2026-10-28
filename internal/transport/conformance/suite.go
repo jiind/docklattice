@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 // Factory creates one connected Agent/Server pair. Each subtest receives a

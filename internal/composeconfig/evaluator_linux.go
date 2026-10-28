@@ -20,7 +20,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/east-true/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/composeexec"
 )
 
 const (

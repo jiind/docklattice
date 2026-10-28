@@ -2588,7 +2588,7 @@ const file_docklattice_product_v1_session_proto_rawDesc = "" +
 	"\bproposed\x18\x01 \x01(\v2#.docklattice.product.v1.AuditCursorR\bproposed\x12\x1a\n" +
 	"\baccepted\x18\x02 \x01(\bR\baccepted\x12T\n" +
 	"\x0estale_coverage\x18\x03 \x01(\v2-.docklattice.product.v1.AuditCoverageSnapshotR\rstaleCoverage\x12\x14\n" +
-	"\x05error\x18\x04 \x01(\tR\x05errorBBZ@github.com/east-true/docklattice/internal/producttransport/pb;pbb\x06proto3"
+	"\x05error\x18\x04 \x01(\tR\x05errorB>Z<github.com/jiind/docklattice/internal/producttransport/pb;pbb\x06proto3"
 
 var (
 	file_docklattice_product_v1_session_proto_rawDescOnce sync.Once

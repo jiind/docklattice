@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/east-true/docklattice/internal/contract/pb"
-	"github.com/east-true/docklattice/internal/transport"
+	pb "github.com/jiind/docklattice/internal/contract/pb"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 // Client is the transport-neutral Server-side view of the prototype service.

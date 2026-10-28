@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/east-true/docklattice/internal/identity"
-	"github.com/east-true/docklattice/internal/registration"
+	"github.com/jiind/docklattice/internal/identity"
+	"github.com/jiind/docklattice/internal/registration"
 )
 
 const maxBodyBytes = 128 << 10

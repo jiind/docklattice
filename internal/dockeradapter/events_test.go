@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentsafety"
+	"github.com/jiind/docklattice/internal/agentsafety"
 	"github.com/moby/moby/api/types/events"
 	"github.com/moby/moby/client"
 )

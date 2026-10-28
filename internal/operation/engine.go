@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/east-true/docklattice/internal/config"
+	"github.com/jiind/docklattice/internal/config"
 )
 
 const DefaultProjectLockWait = 2 * time.Second
