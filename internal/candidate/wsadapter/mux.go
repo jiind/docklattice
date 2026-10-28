@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/east-true/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 type mux struct {

@@ -2161,7 +2161,7 @@ const file_docklattice_prototype_v1_contract_proto_rawDesc = "" +
 	"\tPrecision\x12\x19\n" +
 	"\x15PRECISION_UNSPECIFIED\x10\x00\x12\x13\n" +
 	"\x0fPRECISION_EXACT\x10\x01\x12\x17\n" +
-	"\x13PRECISION_COALESCED\x10\x02B:Z8github.com/east-true/docklattice/internal/contract/pb;pbb\x06proto3"
+	"\x13PRECISION_COALESCED\x10\x02B6Z4github.com/jiind/docklattice/internal/contract/pb;pbb\x06proto3"
 
 var (
 	file_docklattice_prototype_v1_contract_proto_rawDescOnce sync.Once

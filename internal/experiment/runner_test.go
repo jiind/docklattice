@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/east-true/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 func TestExpectedEndIncludesTransportDeadline(t *testing.T) {

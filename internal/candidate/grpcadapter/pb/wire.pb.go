@@ -243,7 +243,7 @@ const file_docklattice_prototype_grpc_v1_wire_proto_rawDesc = "" +
 	"\vStreamFrame\x12@\n" +
 	"\x04open\x18\x01 \x01(\v2*.docklattice.prototype.grpc.v1.OpenRequestH\x00R\x04open\x12\x1a\n" +
 	"\apayload\x18\x02 \x01(\fH\x00R\apayloadB\x06\n" +
-	"\x04bodyBGZEgithub.com/east-true/docklattice/internal/candidate/grpcadapter/pb;pbb\x06proto3"
+	"\x04bodyBCZAgithub.com/jiind/docklattice/internal/candidate/grpcadapter/pb;pbb\x06proto3"
 
 var (
 	file_docklattice_prototype_grpc_v1_wire_proto_rawDescOnce sync.Once

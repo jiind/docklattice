@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/east-true/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/producttransport"
 )
 
 var ErrClosed = errors.New("server metrics matrix is closed")

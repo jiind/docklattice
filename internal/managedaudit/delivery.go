@@ -6,9 +6,9 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/east-true/docklattice/internal/auditevents"
-	"github.com/east-true/docklattice/internal/auditgen"
-	"github.com/east-true/docklattice/internal/operation"
+	"github.com/jiind/docklattice/internal/auditevents"
+	"github.com/jiind/docklattice/internal/auditgen"
+	"github.com/jiind/docklattice/internal/operation"
 )
 
 // Delivery implements operation.TerminalAuditor. Managed records bypass the

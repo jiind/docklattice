@@ -14,7 +14,7 @@ did *not* measure.
 
 ## Published version
 
-[`v0.0.0`](https://github.com/east-true/docklattice/releases/tag/v0.0.0) is the
+[`v0.0.0`](https://github.com/jiind/docklattice/releases/tag/v0.0.0) is the
 first source-only pre-release. Its tag CI passed before publication. GitHub
 provides source archives for the release; it does not include signed
 Server/Agent Images or prebuilt binaries.

@@ -25,14 +25,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/east-true/docklattice/internal/acceptance"
-	"github.com/east-true/docklattice/internal/candidate/grpcadapter"
-	"github.com/east-true/docklattice/internal/candidate/wsadapter"
-	"github.com/east-true/docklattice/internal/contract"
-	"github.com/east-true/docklattice/internal/experiment"
-	"github.com/east-true/docklattice/internal/metrics"
-	"github.com/east-true/docklattice/internal/transport"
-	"github.com/east-true/docklattice/internal/workload"
+	"github.com/jiind/docklattice/internal/acceptance"
+	"github.com/jiind/docklattice/internal/candidate/grpcadapter"
+	"github.com/jiind/docklattice/internal/candidate/wsadapter"
+	"github.com/jiind/docklattice/internal/contract"
+	"github.com/jiind/docklattice/internal/experiment"
+	"github.com/jiind/docklattice/internal/metrics"
+	"github.com/jiind/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/workload"
 )
 
 func main() {

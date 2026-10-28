@@ -1,4 +1,4 @@
-module github.com/east-true/docklattice
+module github.com/jiind/docklattice
 
 go 1.26.6
 

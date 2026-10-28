@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	productconfig "github.com/east-true/docklattice/internal/config"
+	productconfig "github.com/jiind/docklattice/internal/config"
 )
 
 var ErrInvalidAudit = errors.New("invalid audit input")

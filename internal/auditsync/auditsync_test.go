@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/auditevents"
-	"github.com/east-true/docklattice/internal/auditgen"
-	"github.com/east-true/docklattice/internal/auditstore"
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/serverstore"
+	"github.com/jiind/docklattice/internal/auditevents"
+	"github.com/jiind/docklattice/internal/auditgen"
+	"github.com/jiind/docklattice/internal/auditstore"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/serverstore"
 )
 
 const (

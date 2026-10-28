@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/east-true/docklattice/internal/dockeradapter"
-	"github.com/east-true/docklattice/internal/livematrix"
-	"github.com/east-true/docklattice/internal/livestats"
+	"github.com/jiind/docklattice/internal/dockeradapter"
+	"github.com/jiind/docklattice/internal/livematrix"
+	"github.com/jiind/docklattice/internal/livestats"
 )
 
 // MatrixDocker is the Docker surface live metrics need. It is separate from

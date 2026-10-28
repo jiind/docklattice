@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/east-true/docklattice/internal/diskbudget"
-	"github.com/east-true/docklattice/internal/operation"
+	"github.com/jiind/docklattice/internal/diskbudget"
+	"github.com/jiind/docklattice/internal/operation"
 	"golang.org/x/sys/unix"
 )
 

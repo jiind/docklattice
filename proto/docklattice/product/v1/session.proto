@@ -4,7 +4,7 @@ syntax = "proto3";
 // metadata, and framing details are intentionally absent from this namespace.
 package docklattice.product.v1;
 
-option go_package = "github.com/east-true/docklattice/internal/producttransport/pb;pb";
+option go_package = "github.com/jiind/docklattice/internal/producttransport/pb;pb";
 
 message HeartbeatRequest {
   int64 sent_at_unix_nano = 1;

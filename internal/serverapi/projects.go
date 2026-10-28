@@ -12,10 +12,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/east-true/docklattice/internal/composeexec"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/projectmodel"
-	"github.com/east-true/docklattice/internal/webui"
+	"github.com/jiind/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/projectmodel"
+	"github.com/jiind/docklattice/internal/webui"
 )
 
 const (

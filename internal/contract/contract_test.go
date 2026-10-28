@@ -3,7 +3,7 @@ package contract
 import (
 	"testing"
 
-	"github.com/east-true/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 func TestAppendixA4MethodTable(t *testing.T) {

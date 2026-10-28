@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/east-true/docklattice/internal/agentprojects"
-	"github.com/east-true/docklattice/internal/safefile"
+	"github.com/jiind/docklattice/internal/agentprojects"
+	"github.com/jiind/docklattice/internal/safefile"
 )
 
 var ErrProjectFileUnavailable = errors.New("agentproduct: project file is unavailable")

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/east-true/docklattice/internal/agentid"
-	"github.com/east-true/docklattice/internal/app"
-	productconfig "github.com/east-true/docklattice/internal/config"
-	"github.com/east-true/docklattice/internal/registration"
-	"github.com/east-true/docklattice/internal/serverbootstrap"
+	"github.com/jiind/docklattice/internal/agentid"
+	"github.com/jiind/docklattice/internal/app"
+	productconfig "github.com/jiind/docklattice/internal/config"
+	"github.com/jiind/docklattice/internal/registration"
+	"github.com/jiind/docklattice/internal/serverbootstrap"
 )
 
 type blockingRuntime struct {

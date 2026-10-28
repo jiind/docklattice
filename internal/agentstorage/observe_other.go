@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/east-true/docklattice/internal/diskbudget"
+	"github.com/jiind/docklattice/internal/diskbudget"
 )
 
 func observeFilesystem(context.Context, string) (diskbudget.Observation, error) {

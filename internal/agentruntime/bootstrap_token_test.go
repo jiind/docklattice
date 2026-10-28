@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/east-true/docklattice/internal/identity"
+	"github.com/jiind/docklattice/internal/identity"
 )
 
 // A Join Token is what gets an Agent registered. It is not what keeps a

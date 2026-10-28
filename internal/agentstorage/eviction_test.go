@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentprojects"
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/diskbudget"
+	"github.com/jiind/docklattice/internal/agentprojects"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/diskbudget"
 )
 
 type fakeProjectSnapshot []agentprojects.Project

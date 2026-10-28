@@ -132,9 +132,9 @@ TRIVY_STUB_LOG=$work/trivy.log \
     PATH=$work/bin:$PATH \
     "$scanner" \
     "$work/assets" \
-    ghcr.io/east-true/docklattice-server \
+    ghcr.io/jiind/docklattice-server \
     sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
-    ghcr.io/east-true/docklattice-agent \
+    ghcr.io/jiind/docklattice-agent \
     sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 [ "$(wc -l <"$work/trivy.log")" -eq 12 ] || fail "scanner did not execute all report and gate scans"
@@ -149,9 +149,9 @@ TRIVY_STUB_LOG=$work/trivy.log \
     0.1.0-rc.1 \
     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
     1700000000 \
-    ghcr.io/east-true/docklattice-server \
+    ghcr.io/jiind/docklattice-server \
     sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
-    ghcr.io/east-true/docklattice-agent \
+    ghcr.io/jiind/docklattice-agent \
     sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
 (
@@ -164,10 +164,10 @@ TRIVY_STUB_LOG=$work/trivy.log \
 [ -s "$work/assets/trivyignore.yaml" ] ||
     fail "asset preparation did not retain the exact scan policy"
 [ "$(jq -r '.images.server.reference' "$work/assets/release-images.json")" = \
-    'ghcr.io/east-true/docklattice-server@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' ] ||
+    'ghcr.io/jiind/docklattice-server@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' ] ||
     fail "release manifest does not preserve the Server digest"
 [ "$(jq -r '.images.agent.reference' "$work/assets/release-images.json")" = \
-    'ghcr.io/east-true/docklattice-agent@sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb' ] ||
+    'ghcr.io/jiind/docklattice-agent@sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb' ] ||
     fail "release manifest does not preserve the Agent digest"
 
 printf 'release publishing workflow and asset contracts are valid\n'

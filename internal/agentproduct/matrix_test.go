@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/dockeradapter"
-	"github.com/east-true/docklattice/internal/livestats"
-	"github.com/east-true/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/dockeradapter"
+	"github.com/jiind/docklattice/internal/livestats"
+	"github.com/jiind/docklattice/internal/producttransport"
 )
 
 func containerID(letter string) string { return strings.Repeat(letter, 64) }

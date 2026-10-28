@@ -16,7 +16,7 @@ import (
 
 	"github.com/coder/websocket"
 
-	"github.com/east-true/docklattice/internal/transport"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 const Path = "/prototype/agent"

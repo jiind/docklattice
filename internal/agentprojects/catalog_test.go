@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentid"
-	"github.com/east-true/docklattice/internal/backup"
-	"github.com/east-true/docklattice/internal/composeconfig"
-	"github.com/east-true/docklattice/internal/composeexec"
-	"github.com/east-true/docklattice/internal/composesource"
-	"github.com/east-true/docklattice/internal/discovery"
-	"github.com/east-true/docklattice/internal/projectmodel"
-	"github.com/east-true/docklattice/internal/safefile"
+	"github.com/jiind/docklattice/internal/agentid"
+	"github.com/jiind/docklattice/internal/backup"
+	"github.com/jiind/docklattice/internal/composeconfig"
+	"github.com/jiind/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/composesource"
+	"github.com/jiind/docklattice/internal/discovery"
+	"github.com/jiind/docklattice/internal/projectmodel"
+	"github.com/jiind/docklattice/internal/safefile"
 )
 
 type fakeScanner struct {

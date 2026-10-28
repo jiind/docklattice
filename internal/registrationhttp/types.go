@@ -5,7 +5,7 @@ package registrationhttp
 import (
 	"errors"
 
-	"github.com/east-true/docklattice/internal/identity"
+	"github.com/jiind/docklattice/internal/identity"
 )
 
 const (

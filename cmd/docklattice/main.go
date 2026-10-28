@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/east-true/docklattice/internal/app"
-	productconfig "github.com/east-true/docklattice/internal/config"
-	"github.com/east-true/docklattice/internal/registration"
-	"github.com/east-true/docklattice/internal/serverbootstrap"
+	"github.com/jiind/docklattice/internal/app"
+	productconfig "github.com/jiind/docklattice/internal/config"
+	"github.com/jiind/docklattice/internal/registration"
+	"github.com/jiind/docklattice/internal/serverbootstrap"
 )
 
 func main() {

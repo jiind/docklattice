@@ -9,8 +9,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/producttransport"
 )
 
 const (

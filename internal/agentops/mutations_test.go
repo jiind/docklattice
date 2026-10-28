@@ -13,13 +13,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/backup"
-	"github.com/east-true/docklattice/internal/composeexec"
-	"github.com/east-true/docklattice/internal/config"
-	"github.com/east-true/docklattice/internal/diskbudget"
-	"github.com/east-true/docklattice/internal/operation"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/safefile"
+	"github.com/jiind/docklattice/internal/backup"
+	"github.com/jiind/docklattice/internal/composeexec"
+	"github.com/jiind/docklattice/internal/config"
+	"github.com/jiind/docklattice/internal/diskbudget"
+	"github.com/jiind/docklattice/internal/operation"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/safefile"
 )
 
 type fixedProjectCatalog struct{ project composeexec.Project }

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/east-true/docklattice/internal/livematrix"
-	"github.com/east-true/docklattice/internal/livestats"
-	"github.com/east-true/docklattice/internal/logrelay"
+	"github.com/jiind/docklattice/internal/livematrix"
+	"github.com/jiind/docklattice/internal/livestats"
+	"github.com/jiind/docklattice/internal/logrelay"
 )
 
 // LogRelayHandler bridges the bounded, non-persistent log relay to the

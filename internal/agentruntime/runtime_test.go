@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/agentsafety"
-	"github.com/east-true/docklattice/internal/agentstate"
-	"github.com/east-true/docklattice/internal/auditevents"
-	"github.com/east-true/docklattice/internal/auditgen"
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/dockeradapter"
-	"github.com/east-true/docklattice/internal/identity"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/registrationhttp"
+	"github.com/jiind/docklattice/internal/agentsafety"
+	"github.com/jiind/docklattice/internal/agentstate"
+	"github.com/jiind/docklattice/internal/auditevents"
+	"github.com/jiind/docklattice/internal/auditgen"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/dockeradapter"
+	"github.com/jiind/docklattice/internal/identity"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/registrationhttp"
 )
 
 func TestBootRegistersOverTLSAndCleanRestartPreservesIdentity(t *testing.T) {

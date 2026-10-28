@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sync"
 
-	productconfig "github.com/east-true/docklattice/internal/config"
+	productconfig "github.com/jiind/docklattice/internal/config"
 )
 
 var (

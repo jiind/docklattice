@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/producttransport"
 )
 
 // fakeSessions is the transport as this package sees it: a counted Open and a

@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc"
 	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
 
-	pb "github.com/east-true/docklattice/internal/candidate/grpcadapter/pb"
-	"github.com/east-true/docklattice/internal/transport"
+	pb "github.com/jiind/docklattice/internal/candidate/grpcadapter/pb"
+	"github.com/jiind/docklattice/internal/transport"
 )
 
 type sessionState struct {

@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/east-true/docklattice/internal/composeexec"
-	productconfig "github.com/east-true/docklattice/internal/config"
-	"github.com/east-true/docklattice/internal/dockeradapter"
-	"github.com/east-true/docklattice/internal/operation"
-	"github.com/east-true/docklattice/internal/producttransport"
-	"github.com/east-true/docklattice/internal/safefile"
+	"github.com/jiind/docklattice/internal/composeexec"
+	productconfig "github.com/jiind/docklattice/internal/config"
+	"github.com/jiind/docklattice/internal/dockeradapter"
+	"github.com/jiind/docklattice/internal/operation"
+	"github.com/jiind/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/safefile"
 )
 
 var (

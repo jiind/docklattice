@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/east-true/docklattice/internal/agentsafety"
+	"github.com/jiind/docklattice/internal/agentsafety"
 	"github.com/moby/moby/api/types/container"
 	"github.com/moby/moby/api/types/image"
 	"github.com/moby/moby/api/types/network"

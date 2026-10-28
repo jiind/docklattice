@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	productconfig "github.com/east-true/docklattice/internal/config"
+	productconfig "github.com/jiind/docklattice/internal/config"
 )
 
 func TestDefaultThresholdsAndHysteresis(t *testing.T) {

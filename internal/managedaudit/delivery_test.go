@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/auditevents"
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/operation"
+	"github.com/jiind/docklattice/internal/auditevents"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/operation"
 )
 
 func TestDeliveryWritesOneUnrateLimitedManagedRecord(t *testing.T) {

@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/auditgen"
-	"github.com/east-true/docklattice/internal/auditwal"
-	"github.com/east-true/docklattice/internal/dockeradapter"
+	"github.com/jiind/docklattice/internal/auditgen"
+	"github.com/jiind/docklattice/internal/auditwal"
+	"github.com/jiind/docklattice/internal/dockeradapter"
 )
 
 type testClock struct{ now time.Time }

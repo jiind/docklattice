@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/east-true/docklattice/internal/producttransport"
+	"github.com/jiind/docklattice/internal/producttransport"
 )
 
 func bounded(id string, sample producttransport.StatsSample, context ContainerContext) ContainerRow {
